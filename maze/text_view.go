@@ -60,8 +60,8 @@ const RIGHT = `
                               |  
                               |  
                               +  
-                               \\ 
-                                \\
+                               \ 
+                                \
 `
 const FORWARD = `
                                  

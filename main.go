@@ -1,10 +1,10 @@
 package main
 
 import (
+	"github.com/TerryHowe/gomaze/maze"
 	"github.com/go-martini/martini"
 	"github.com/martini-contrib/render"
 	"net/http"
-	"maze/"
 )
 
 /* mazeHandler(res http.ResponseWriter, req *http.Request) string*/
@@ -26,8 +26,10 @@ func mazeHandler(req *http.Request, r render.Render) {
 		DirectionLong: "North",
 		X: 0,
 		Y: 1,
-		MazeView: views.room(),
+		MazeView: maze.RIGHT,
 	}
+	room := maze.Room{}
+	room.GoForward()
 	r.HTML(200, "room", data)
 }
 

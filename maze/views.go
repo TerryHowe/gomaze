@@ -1,12 +1,12 @@
-package maze
+package main
 
 //def index(request):
 //return redirect('0/0/N', True)
 
 
-func room(x int, y int, direction string) string {
-	return ("Boom")
-}
+//func room(x int, y int, direction string) string {
+//	return ("Boom")
+//}
 
 	//passages = Passage.objects.all()
 	//theMaze = maze.Maze(passages)
