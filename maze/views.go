@@ -1,4 +1,4 @@
-package main
+package maze
 
 //def index(request):
 //return redirect('0/0/N', True)

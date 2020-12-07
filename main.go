@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/TerryHowe/gomaze/maze"
+	"./maze"
 	"github.com/go-martini/martini"
 	"github.com/martini-contrib/render"
 	"net/http"
@@ -10,26 +10,26 @@ import (
 /* mazeHandler(res http.ResponseWriter, req *http.Request) string*/
 func mazeHandler(req *http.Request, r render.Render) {
 	data := struct {
-		Left string
-		Right string
-		Backward string
-		Forward string
+		Left          string
+		Right         string
+		Backward      string
+		Forward       string
 		DirectionLong string
-		X int
-		Y int
-		MazeView string
+		X             int
+		Y             int
+		MazeView      string
 	}{
-		Left: "left",
-		Right: "right",
-		Backward: "backward",
-		Forward: "forward",
+		Left:          "left",
+		Right:         "right",
+		Backward:      "backward",
+		Forward:       "forward",
 		DirectionLong: "North",
-		X: 0,
-		Y: 1,
-		MazeView: maze.RIGHT,
+		X:             0,
+		Y:             1,
+		MazeView:      maze.SHIT,
 	}
-	room := maze.Room{}
-	room.GoForward()
+	//room := maze.Room
+	//room.GoForward()
 	r.HTML(200, "room", data)
 }
 
