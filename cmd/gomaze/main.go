@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./maze"
+	"github.com/TerryHowe/gomaze/maze"
 	"github.com/go-martini/martini"
 	"github.com/martini-contrib/render"
 	"net/http"
