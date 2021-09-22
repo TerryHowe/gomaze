@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="06d12f79-a8ff-4214-bf96-8cf8a7d644dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/gomaze/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,6 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
-    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
@@ -117,6 +115,10 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
+    <state x="799" y="233" width="482" height="576" key="#Build_Tags_&amp;_Vendoring" timestamp="1626621388039">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="799" y="233" width="482" height="576" key="#Build_Tags_&amp;_Vendoring/0.23.1792.1017@0.23.1792.1017" timestamp="1626621388039" />
     <state x="504" y="180" width="1071" height="774" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626620634276">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
@@ -137,5 +139,9 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="1358" height="249" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1626620679105" />
+    <state x="541" y="157" key="SettingsEditor" timestamp="1626621309749">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="541" y="157" key="SettingsEditor/0.23.1792.1017@0.23.1792.1017" timestamp="1626621309749" />
   </component>
 </project>
